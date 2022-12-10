@@ -1,6 +1,7 @@
 body{
     background-color: #ece7e1;
 }
+
 .container {
     position: relative;
     font-family: Montserrat, sans-serif;
@@ -55,4 +56,6 @@ body{
     text-align: center;
     letter-spacing: 4px;
     transform: rotate(-90deg);
+
 }
+

@@ -53,6 +53,11 @@ body {
 .hero h1 {
   font-size: 126px;
   margin: 50px;
+  font-weight: 200;
+  transition: all 50ms ease-in;
+}
+.hero h1:hover {
+  transform: skew(-0.06turn);
 }
 
 .nav-left-item {

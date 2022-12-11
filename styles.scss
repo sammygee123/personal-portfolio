@@ -49,10 +49,17 @@ font-weight: 400;
     justify-content: center;
     flex-direction: column;
     font-family: Montserrat, sans-serif;
+    
     h1{
         font-size: 126px;
         margin: 50px;
+        font-weight: 200;
+        transition: all 50ms ease-in;
     } 
+    h1:hover{
+        transform: skew(-0.06turn);
+        
+    }
  }
 
 

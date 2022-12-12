@@ -52,6 +52,8 @@ body {
 
 .inner {
     display: flex;
+    justify-content: center;
+    
 
     @include medium {
         flex-direction: column;

@@ -1,6 +1,9 @@
 @mixin medium {
     @media (max-width: 960px) { @content; }
   }
+  @mixin mobile {
+    @media (max-width:400px) { @content; }
+  }
 
 
 body{
@@ -47,6 +50,9 @@ body{
     justify-content: space-evenly;
     height: 100vh;
 }
+@include mobile{
+    height: 70vh;  
+}
 }
 .description{
 position: relative;
@@ -64,10 +70,16 @@ font-weight: 400;
     justify-content: center;
     flex-direction: column;
     font-family: Montserrat, sans-serif;
+    
     @include medium{
         width: unset;
         height: unset;
         padding-left: 25%;
+       
+    }
+    @include mobile{
+        padding-left: 60px;
+        display: grid;
     }
     a{
         text-decoration: none;
@@ -82,16 +94,19 @@ font-weight: 400;
     
     h1{
         font-size: 126px;
+        line-height: 1em;
        margin: 0;
-        font-weight: 200;
-        transition: all 50ms ease-in;
+        font-weight: 100;
+        transition: all 500ms ease-in;
         @include medium {
             margin-left: 0;
-            
+            font-size: 15vw;
         }
     } 
     h1:hover{
-        transform: skew(-0.06turn);
+       // transform: skew(-0.03turn);
+        transform: translateX(5px);
+        font-style: italic;
         
     }
  }

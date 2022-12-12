@@ -1,12 +1,17 @@
 @mixin medium {
-    @media (max-width: 960px) { @content; }
-  }
-  @mixin mobile {
-    @media (max-width:400px) { @content; }
-  }
+    @media (max-width: 960px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width:400px) {
+        @content;
+    }
+}
 
 
-body{
+body {
     background-color: #ece7e1;
 }
 
@@ -16,10 +21,10 @@ body{
     color: #333;
     font-size: 12px;
     line-height: 20px;
-    }
+}
 
 .header {
-    
+
     width: 25%;
     height: 100vh;
     display: flex;
@@ -32,102 +37,116 @@ body{
     font-weight: 100;
     letter-spacing: 2px;
     text-transform: uppercase;
-    @include medium{
+
+    @include medium {
         width: unset;
         height: unset;
         padding-left: 25%;
     }
-    h3{
+
+    h3 {
         font-weight: 400;
     }
 
 }
 
-.inner{
+.inner {
     display: flex;
-   @include medium {
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100vh;
+
+    @include medium {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+    }
+
+    @include mobile {
+        height: 70vh;
+    }
 }
-@include mobile{
-    height: 70vh;  
+
+.description {
+    position: relative;
+    max-width: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Montserrat, sans-serif;
+    font-size: 9px;
+    line-height: 1.9em;
+    font-weight: 400;
 }
-}
-.description{
-position: relative;
-max-width: 80%;
-margin-right: 0px;
-margin-left: 0px;
-font-family: Montserrat, sans-serif;
-font-size: 9px;
-line-height: 1.9em;
-font-weight: 400;
-}
+
 .hero {
     display: flex;
     height: 100vh;
     justify-content: center;
     flex-direction: column;
     font-family: Montserrat, sans-serif;
-    
-    @include medium{
+
+    @include medium {
         width: unset;
         height: unset;
         padding-left: 25%;
-       
+
     }
-    @include mobile{
+
+    @include mobile {
         padding-left: 60px;
         display: grid;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: #333;
-        
+
     }
-    a:hover{
+
+    a:hover {
         text-decoration: unset;
 
 
     }
-    
-    h1{
+
+    h1 {
         font-size: 126px;
         line-height: 1em;
-       margin: 0;
+        margin: 0;
         font-weight: 100;
         transition: all 500ms ease-in;
+
         @include medium {
             margin-left: 0;
             font-size: 15vw;
         }
-    } 
-    h1:hover{
-       // transform: skew(-0.03turn);
+    }
+
+    h1:hover {
+        // transform: skew(-0.03turn);
         transform: translateX(5px);
         font-style: italic;
-        
+
     }
- }
+}
 
 
-.nav{
-    &-left-item{
+.nav {
+    &-left-item {
         margin-bottom: 40px;
         padding-right: 15px;
         padding-left: 20px;
         transform: rotate(-90deg);
         letter-spacing: 5px;
-        a{
+
+        a {
             text-decoration: none;
             color: #333;
         }
-        &-left-item:hover{
+
+        &-left-item:hover {
             text-decoration: line-through;
         }
     }
-    &-left{
+
+    &-left {
         position: fixed;
         z-index: 600;
         display: flex;
@@ -140,17 +159,19 @@ font-weight: 400;
         align-items: center;
 
     }
-    &-line{
+
+    &-line {
         width: 1px;
         height: 100px;
         margin-top: 10px;
         margin-bottom: 80px;
         background-color: #1a1818;
     }
-   
-   
+
+
 }
-a:hover{
+
+a:hover {
     text-decoration: line-through;
     color: #333;
 
@@ -167,5 +188,3 @@ a:hover{
     margin-top: 30vh;
 
 }
-
-

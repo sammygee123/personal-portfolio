@@ -2,12 +2,19 @@ body {
   background-color: #ece7e1;
 }
 
+.body-work {
+  background-color: #1a1919;
+}
+
 .container {
   position: relative;
   font-family: Montserrat, sans-serif;
   color: #333;
   font-size: 12px;
   line-height: 20px;
+}
+.container-work {
+  color: #ece7e1;
 }
 
 .header {

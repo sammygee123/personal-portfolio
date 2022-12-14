@@ -12,17 +12,15 @@
 
 
 body {
-    background-color: #ece7e1;
+    background-color:#1a1818;
 }
-.body-work{
-    background-color: #1a1919;
-}
+
 
 
 .container {
     position: relative;
     font-family: Montserrat, sans-serif;
-    color: #333;
+    color:#ece7e1;
     font-size: 12px;
     line-height: 20px;
     &-work{
@@ -105,7 +103,7 @@ body {
 
     a {
         text-decoration: none;
-        color: #333;
+        color:#ece7e1;
 
     }
 
@@ -135,9 +133,7 @@ body {
 
     }
 }
-.white{
-    color: #ece7e1;
-}
+
 
 .nav {
    
@@ -150,7 +146,7 @@ body {
 
         a {
             text-decoration: none;
-            color: #333;
+            color:#ece7e1;
             font-family: Montserrat, sans-serif;
         }
 
@@ -178,7 +174,7 @@ body {
         height: 100px;
         margin-top: 10px;
         margin-bottom: 80px;
-        background-color: #1a1818;
+        background-color:#ece7e1;
     }
 
  
@@ -186,7 +182,7 @@ body {
 
 a:hover {
     text-decoration: line-through;
-    color: #333;
+    color:#ece7e1;
 
 
 }

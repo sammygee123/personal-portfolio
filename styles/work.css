@@ -20,9 +20,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 150px;
   font-family: Montserrat, sans-serif;
-  font-size: 20px;
+  font-size: 50px;
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -35,12 +34,13 @@ body {
   }
 }
 .header h3 {
-  font-weight: 400;
+  font-weight: 200;
+  margin-bottom: 30px;
 }
 
 .inner {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 @media (max-width: 960px) {
   .inner {
@@ -158,5 +158,5 @@ a:hover {
   text-align: center;
   letter-spacing: 4px;
   transform: rotate(-90deg);
-  margin-top: 30vh;
+  margin-top: 45vh;
 }/*# sourceMappingURL=work.css.map */

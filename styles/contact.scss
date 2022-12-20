@@ -123,6 +123,14 @@ body {
             margin-left: 0;
             font-size: 15vw;
         }
+        @include mobile{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items:flex-start;
+            margin-right: 109px;
+            margin-top: 30px;
+        }
     }
 
     h1:hover {
@@ -141,6 +149,9 @@ body {
         padding-left: 20px;
         transform: rotate(-90deg);
         letter-spacing: 5px;
+        @include mobile {
+            margin-top: 20px;
+        }
 
         a {
             text-decoration: none;

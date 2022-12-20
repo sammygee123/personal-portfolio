@@ -140,7 +140,16 @@ body {
         font-style: italic;
 
     }
+    h2{
+        position: relative;
+       
+       img{
+        position: absolute;
+        left: 96%;
+       } 
+    }
 }
+
 
 .nav {
    

@@ -108,6 +108,13 @@ body {
   transform: translateX(5px);
   font-style: italic;
 }
+.hero h2 {
+  position: relative;
+}
+.hero h2 img {
+  position: absolute;
+  left: 96%;
+}
 
 .nav-left-item {
   margin-bottom: 40px;

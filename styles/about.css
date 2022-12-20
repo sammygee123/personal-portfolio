@@ -94,6 +94,16 @@ body {
     font-size: 15vw;
   }
 }
+@media (max-width: 600px) {
+  .hero h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 109px;
+    margin-top: 30px;
+  }
+}
 .hero h1:hover {
   transform: translateX(5px);
   font-style: italic;

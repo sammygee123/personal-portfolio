@@ -13,6 +13,7 @@
 
 body {
     background-color: #ece7e1;
+    line-height: 1;
 }
 .body-work{
     background-color: #1a1919;
@@ -24,7 +25,7 @@ body {
     font-family: Montserrat, sans-serif;
     color: #333;
     font-size: 12px;
-    line-height: 20px;
+
     &-work{
        color: #ece7e1; 
     }
@@ -80,7 +81,7 @@ body {
     margin-left: 0px;
     font-family: Montserrat, sans-serif;
     font-size: 13px;
-    line-height: 1.9em;
+  line-height: 1.4;
     font-weight: 400;
 }
 
@@ -117,7 +118,6 @@ body {
 
     h1 {
         font-size: 150px;
-        line-height: 1em;
         margin: 0;
         font-weight: 100;
         transition: all 500ms ease-in;

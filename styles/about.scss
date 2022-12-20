@@ -13,6 +13,7 @@
 
 body {
     background-color: #ece7e1;
+    line-height: 1;
 }
 
 
@@ -22,7 +23,7 @@ body {
     font-family: Montserrat, sans-serif;
     color: #1a1919;
     font-size: 12px;
-    line-height: 20px;
+    
     &-work{
        color: #1a1919; 
     }
@@ -67,29 +68,18 @@ body {
     @include medium {
         flex-direction: column;
         justify-content: space-evenly;
-        height: 100vh;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+      
     }
 
     @include mobile {
-        height: 70vh;
+        
     }
 }
 
-.description {
-    position: relative;
-    max-width: 80%;
-    margin-right: 0px;
-    margin-left: 0px;
-    font-family: Montserrat, sans-serif;
-    font-size: 13px;
-    line-height: 1.9em;
-    font-weight: 200;
-    a {
-        text-decoration: none;
-        color: #1a1919;
-        font-family: Montserrat, sans-serif;
-    }
-}
+
 
 .hero {
     display: flex;
@@ -102,7 +92,8 @@ body {
     @include medium {
         width: unset;
         height: unset;
-        padding-left: 25%;
+       padding: 0%;
+       margin: 0%;
 
     }
 
@@ -125,7 +116,6 @@ body {
 
     h1 {
         font-size: 250px;
-        line-height: 1em;
         margin: 0;
         font-weight: 100;
         transition: all 500ms ease-in;
@@ -137,7 +127,7 @@ body {
     }
 
     h1:hover {
-        // transform: skew(-0.03turn);
+        
         transform: translateX(5px);
         font-style: italic;
 
@@ -206,3 +196,4 @@ a:hover {
     margin-top: 45vh;
 
 }
+

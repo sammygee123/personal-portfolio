@@ -1,5 +1,6 @@
 body {
   background-color: #1a1818;
+  line-height: 1;
 }
 
 .container {
@@ -7,7 +8,6 @@ body {
   font-family: Montserrat, sans-serif;
   color: #ece7e1;
   font-size: 12px;
-  line-height: 20px;
 }
 .container-work {
   color: #ece7e1;
@@ -15,13 +15,13 @@ body {
 
 .header {
   width: 25%;
-  height: 100vh;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
   font-family: Montserrat, sans-serif;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -34,36 +34,31 @@ body {
   }
 }
 .header h3 {
-  font-weight: 200;
-  margin-bottom: 30px;
+  font-weight: 100;
+  font-size: 70px;
+  margin: 0 0 30px 0;
 }
 
 .inner {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 @media (max-width: 960px) {
   .inner {
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100vh;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
   }
 }
 @media (max-width: 600px) {
   .inner {
+    flex-direction: column;
+    justify-content: space-evenly;
     height: 70vh;
+    align-items: center;
   }
-}
-
-.description {
-  position: relative;
-  max-width: 80%;
-  margin-right: 0px;
-  margin-left: 0px;
-  font-family: Montserrat, sans-serif;
-  font-size: 13px;
-  line-height: 1.9em;
-  font-weight: 200;
 }
 
 .hero {
@@ -75,9 +70,10 @@ body {
 }
 @media (max-width: 960px) {
   .hero {
-    width: unset;
     height: unset;
-    padding-left: 25%;
+    width: unset;
+    padding: 0%;
+    margin: 0%;
   }
 }
 @media (max-width: 600px) {
@@ -95,7 +91,6 @@ body {
 }
 .hero h1 {
   font-size: 126px;
-  line-height: 1em;
   margin: 0;
   font-weight: 100;
   transition: all 500ms ease-in;
@@ -158,5 +153,5 @@ a:hover {
   text-align: center;
   letter-spacing: 4px;
   transform: rotate(-90deg);
-  margin-top: 45vh;
+  margin-top: 30vh;
 }/*# sourceMappingURL=work.css.map */

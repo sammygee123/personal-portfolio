@@ -11,6 +11,8 @@
 }
 
 
+
+
 body {
     background-color: #ece7e1;
     line-height: 1;
@@ -19,7 +21,7 @@ body {
     
 
 h4{
-    text-shadow: 1px 1px 5px #ece7e1 !important;
+    text-shadow: 1px 1px 0px #ece7e1 !important;
 }
 }
 
@@ -158,6 +160,7 @@ h4{
             max-width: 175px;
             left: 47%;
         }
+    
        } 
     }
 }

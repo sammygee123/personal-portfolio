@@ -3,6 +3,10 @@ body {
   line-height: 1;
 }
 
+h4 {
+  text-shadow: 1px 1px 5px #ece7e1 !important;
+}
+
 .container {
   position: relative;
   font-family: Montserrat, sans-serif;
@@ -114,6 +118,12 @@ body {
 .hero h2 img {
   position: absolute;
   left: 96%;
+}
+@media (max-width: 600px) {
+  .hero h2 img {
+    max-width: 175px;
+    left: 47%;
+  }
 }
 
 .nav-left-item {

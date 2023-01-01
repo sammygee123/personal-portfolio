@@ -47,6 +47,7 @@ body {
 @media (max-width: 500px) {
   .header {
     margin: 0%;
+    margin-top: 120px;
   }
 }
 
@@ -112,7 +113,8 @@ body {
 @media (max-width: 960px) {
   .hero h1 {
     margin-left: 0;
-    font-size: 15vw;
+    font-size: 9vw;
+    margin-left: 30px;
   }
 }
 .hero h1:hover {

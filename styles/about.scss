@@ -74,6 +74,22 @@ body {
         margin: 0%;
 
     }
+    img{
+        position: absolute;
+        position: absolute;
+        display: block;
+        left: 59%;
+
+        @include mobile {
+            left: auto;
+            top: 0%;
+            right: 0%;
+            bottom: 0%;
+            width: 27%;
+            margin-right: 5%;
+        }
+
+    }
 
     
 }
@@ -119,6 +135,7 @@ body {
         margin: 0;
         font-weight: 100;
         transition: all 500ms ease-in;
+        
 
         @include medium {
             margin-left: 0;
@@ -144,17 +161,18 @@ body {
 
     h2 {
         position: relative;
+        text-shadow: #ece7e1 1px 0 10px;
 
-        img{
-            position: absolute;
-            left: 96%;
+        // img{
+        //     position: absolute;
+        //     left: 96%;
 
-            @include mobile {
-                max-width: 175px;
-                left: 47%;
-            }
+        //     @include mobile {
+        //         max-width: 175px;
+        //         left: 47%;
+        //     }
 
-        }
+        // }
     }
 }
 

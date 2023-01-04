@@ -53,6 +53,22 @@ body {
     margin: 0%;
   }
 }
+.inner img {
+  position: absolute;
+  position: absolute;
+  display: block;
+  left: 59%;
+}
+@media (max-width: 600px) {
+  .inner img {
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 27%;
+    margin-right: 5%;
+  }
+}
 
 .hero {
   display: flex;
@@ -111,16 +127,7 @@ body {
 }
 .hero h2 {
   position: relative;
-}
-.hero h2 img {
-  position: absolute;
-  left: 96%;
-}
-@media (max-width: 600px) {
-  .hero h2 img {
-    max-width: 175px;
-    left: 47%;
-  }
+  text-shadow: #ece7e1 1px 0 10px;
 }
 
 .nav-left-item {

@@ -1,6 +1,26 @@
+#overlap {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1a1919;
+  z-index: 20;
+  animation: 1s slidein;
+  animation-fill-mode: forwards;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes slidein {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
 body {
   background-color: #ece7e1;
   line-height: 1;
+  margin: 0%;
 }
 
 .body-work {

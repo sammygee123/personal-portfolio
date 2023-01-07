@@ -4,7 +4,7 @@
   height: 100vh;
   background-color: #1a1919;
   z-index: 20;
-  animation: 1s slidein;
+  animation: 1s slidein ease-in-out;
   animation-fill-mode: forwards;
   transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 }
@@ -13,7 +13,7 @@
     transform: translateY(0%);
   }
   to {
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
 }
 
